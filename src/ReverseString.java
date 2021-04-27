@@ -10,16 +10,13 @@ public class ReverseString {
 		Scanner inp = new Scanner(System.in);
 		System.out.print("Enter the word: ");
 		inwords = inp.nextLine();
-		prog(inwords);
+		prog();
 		inp.close();
 	}
-	public static void prog(String s) {
+	public static void prog() {
 		char[] word = new char[inwords.length()];
-		
-		for(int i=0;i<inwords.length();i++) {
-			word = inwords.toCharArray();
-		}
-		System.out.print("The reverse of the word "+inwords +" is: " );
+		word = inwords.toCharArray();
+		System.out.print("The reverse of the word is: " );
 		for(int j=inwords.length()-1;j>=0;j--) {
 			System.out.print(word[j]);
 		}
