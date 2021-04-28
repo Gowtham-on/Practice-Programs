@@ -28,7 +28,8 @@ public class ReverseString {
 		
 		//Another method using StringBuffer
 		//We can make a string mutable using StringBuffer
-		StringBuffer sf = new StringBuffer(inwords);
+		String s = "435543";
+		StringBuffer sf = new StringBuffer(s);
 		sf.reverse();
 		System.out.println();
 		System.out.println("Using StringBuffer: "+sf);
