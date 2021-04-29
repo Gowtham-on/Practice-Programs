@@ -15,6 +15,9 @@ public class ReversingInt {
 		}
 		System.out.println("The reverse num is " + b);
 		
+		////////////////////////////////////////////////////////////////////
+		
+		
 		//2. Using StringBuffer
 		int num = 781243;
 		StringBuffer sb = new StringBuffer(String.valueOf(num));
