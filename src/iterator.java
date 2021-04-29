@@ -14,18 +14,23 @@ public class iterator {
 		
 		Iterator<String> it = names.iterator();
 		//Method 1 - To Print the list
-//		System.out.println(it.next());
-//		System.out.println(it.next());
-//		System.out.println(it.next());
-//		
+		System.out.println(it.next());
+		System.out.println(it.next());
+		System.out.println(it.next());
+		
+		///////////////////////////////////////////////////////////////
+		
+		
 		//Method 2 - To Print the list
 		for(String s: names) {
 			System.out.println(s);
 		}
 		System.out.println("");
 		
-		//To add a new name
-		names.add(2,"Gowtham");
+		///////////////////////////////////////////////////////////////
+		
+		//To insert new name
+		names.add(2,"Elder");
 		
 		for(String s: names) {
 			System.out.println(s);
